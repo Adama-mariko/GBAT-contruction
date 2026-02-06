@@ -58,7 +58,10 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} GBAT Construction. Tous droits réservés.</p>
+           <p>
+            &copy; {new Date().getFullYear()} GBAT Construction. Tous droits réservés. 
+            <span className="credits"> | Site créé par Mariko Adama</span>
+          </p>
       </div>
       </div>
     </footer>
