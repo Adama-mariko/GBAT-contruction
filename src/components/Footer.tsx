@@ -2,9 +2,6 @@ import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
 import Logo from './Logo'
 
 const Footer = () => {
-
-   const currentYear = new Date().getFullYear()
-
   return (
     <footer className="footer">
       <div className="container">
