@@ -2,6 +2,9 @@ import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
 import Logo from './Logo'
 
 const Footer = () => {
+
+   const currentYear = new Date().getFullYear()
+
   return (
     <footer className="footer">
       <div className="container">
@@ -55,8 +58,8 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 GBAT Construction. Tous droits réservés.</p>
-        </div>
+          <p>&copy; {currentYear} GBAT Construction. Tous droits réservés.</p>
+      </div>
       </div>
     </footer>
   )
